@@ -1,0 +1,12 @@
+# 只安装复刻 LLMRec 训练会用到的包。
+# Torch 使用 CUDA 12.4 的轮子，能在本机 RTX 4060 Laptop 上运行。
+# 不要安装作者仓库的 requirements.txt，那是一份完整的 Anaconda 环境锁定。
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch==2.6.0+cu124
+numpy==2.5.5
+scipy==1.18.1
+tqdm==4.70.1
+setproctitle==1.3.8
+colorama==0.4.6

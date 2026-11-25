@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.part
+
+# 作者数据和本课题原始数据体积大，不放进 Git
+**/data/
+
+# 复刻仓库自带的 Git 历史
+复刻LLMRec/LLMRec/.git/
